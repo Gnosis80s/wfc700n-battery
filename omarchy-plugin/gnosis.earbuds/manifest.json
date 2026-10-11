@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "gnosis.earbuds",
+  "name": "WF-C700N Earbuds",
+  "version": "1.0.0",
+  "author": "gnosis",
+  "description": "WF-C700N battery panel with per-bud and case levels",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "WF-C700N Earbuds",
+    "description": "Sony WF-C700N battery dropdown",
+    "category": "Devices",
+    "allowMultiple": false
+  }
+}
